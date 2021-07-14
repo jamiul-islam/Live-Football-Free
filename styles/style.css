@@ -29,7 +29,7 @@ body p{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-evenly;
     padding-top: 42px;
 }
 nav span a{
@@ -79,7 +79,7 @@ nav span a:hover{
 .introducton, .flex {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* border: 1px solid white; */
     padding-top: 67px;
     margin-left: 4%;
@@ -196,7 +196,7 @@ nav span a:hover{
 .Advertisement {
     display: flex;
     padding-top: 72px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .Advertisement-info {
@@ -285,10 +285,13 @@ nav span a:hover{
     .intro-info{        
         margin-top: -15%;
     }
+    .intro-info .button a{
+        margin-top: -6%;
+    }
     .introducton .intro-image img{
         width: 70%;
         height: auto;
-        padding-top: 3%;
+        padding-top: 5%;
         margin-left: 10%;
     }
     /* highlights */
@@ -299,6 +302,10 @@ nav span a:hover{
         padding-bottom: 7%;
         margin-top: -3%;
     }
+    .highlights .highlights-image img{
+        width: 100%;
+        height: auto;
+    }
     /* advertise */
     .Advertisement-container, .parters, .svg{
         display: none;
@@ -306,5 +313,9 @@ nav span a:hover{
     /* footer */
     .footer{
         margin-top: 55%;
+    }
+    .footer img{
+        width: 95%;
+        height: auto;
     }
 }
